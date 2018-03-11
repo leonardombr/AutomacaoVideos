@@ -4,10 +4,12 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 import testes.TestLogin;
+import testes.TestMonetizacao;
 
 @RunWith(Suite.class)
 @SuiteClasses({
-	TestLogin.class	
+	//TestLogin.class,
+	TestMonetizacao.class
 })
 public class SuiteTeste {
 	

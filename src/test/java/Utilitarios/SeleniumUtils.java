@@ -55,6 +55,16 @@ public class SeleniumUtils {
 		}
 
 	}
+	
+	public static WebElement getByNameWithExplicit(WebDriver driver, String name, long delay) {
+		try {
+			WebDriverWait wait = new WebDriverWait(driver, delay);
+			return wait.until(ExpectedConditions.presenceOfElementLocated(By.name(name)));
+		} catch (Exception e) {
+			return null;
+		}
+
+	}
 
 	public static WebElement getByIdWithDelay(WebDriver driver, String id, long delay) {
 		try {
