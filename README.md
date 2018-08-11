@@ -1,4 +1,4 @@
-## Samba Vídeos
+## Vídeos
 
 Este projeto foi desenvolvido para realizar testes automáticos na aplicação SambaVideos da [Sambatech](www.sambatech.com), o projeto esta estruturado de forma que permita o crescimento sem prejudicar o entendimento do código.
 
